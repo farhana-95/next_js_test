@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-- fetch function is written in 'fetch_user.ts' file.
+- fetch function is written in 'userData.ts' file.
 
 First, run the development server:
 
@@ -9,9 +9,9 @@ First, run the development server:
 npm run dev
 ```
 ## Check API on postman
-- Open Postman and go to 'http://localhost:3000/api/fetch_user'.
+- Open Postman and go to 'http://localhost:3000/api/userData'.
 - Input ID in the body and set the method to 'POST'.
-- Click send, and the result will be shown from the sample data in 'users' in the 'fetch_user.ts' file.
+- Click send, and the result will be shown from the sample data in 'users' in the 'userData.ts' file.
 
 
 
