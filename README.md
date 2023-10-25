@@ -1,7 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-- fetch function is written in 'userData.ts' file.
+- CRUD files are created.
+- used prisma and prisma client.
 
 First, run the development server:
 
@@ -9,9 +10,10 @@ First, run the development server:
 npm run dev
 ```
 ## Check API on postman
-- Open Postman and go to 'http://localhost:3000/api/userData'.
-- Input ID in the body and set the method to 'POST'.
-- Click send, and the result will be shown from the sample data in 'users' in the 'userData.ts' file.
+- Create a .env file and put the DB postgre url.
+- Open Postman and go to 'http://localhost:3000/api/user/select' (insert/update/delete).
+- Input ID and necessary attributes in the body and set the method to 'POST'.
+- Click send, and the result will be shown.
 
 
 
