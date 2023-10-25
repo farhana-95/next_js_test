@@ -15,6 +15,8 @@ npm run dev
 - Input ID and necessary attributes in the body and set the method to 'POST'.
 - Click send, and the result will be shown.
 
+## Check next auth 
+- go to this url for checking the authentication: http://localhost:3000/api/auth/signin
 
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
