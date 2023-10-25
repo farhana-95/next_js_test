@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import FetchData from './api/fetchData'
 export default function Home() {
   return (
     // <div className={styles.container}>
@@ -68,7 +67,6 @@ export default function Home() {
     // </div>
     <div>
     <h2>User List-</h2>
-    <FetchData />
   </div>
   )
 }
